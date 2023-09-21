@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.33829.164
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AS.NET.Core.Routing.FeatureSwitching", "AS.NET.Core.Routing.FeatureSwitching\AS.NET.Core.Routing.FeatureSwitching.csproj", "{C3494D03-15D0-4239-88B3-AEDDC3A313C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AS.NET.Core.Routing.FeatureSwitching", "AS.NET.Core.Routing.FeatureSwitching\AS.NET.Core.Routing.FeatureSwitching.csproj", "{C3494D03-15D0-4239-88B3-AEDDC3A313C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "As.Core.MVC.AuthFilter", "As.Core.MVC.AuthFilter\As.Core.MVC.AuthFilter.csproj", "{4229EDFC-8FB2-4980-8211-0A7D20CC3B68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "As.Core.MVC.ModelBinding", "As.Core.MVC.ModelBinding\As.Core.MVC.ModelBinding.csproj", "{A3CCBBA0-387C-4985-ACCF-6046EBB2AFF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "As.Core.MVC.FilterRedirection", "As.Core.MVC.FilterRedirection\As.Core.MVC.FilterRedirection.csproj", "{17988596-95DD-47DC-A840-3D9E50CEA354}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{C3494D03-15D0-4239-88B3-AEDDC3A313C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3494D03-15D0-4239-88B3-AEDDC3A313C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3494D03-15D0-4239-88B3-AEDDC3A313C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4229EDFC-8FB2-4980-8211-0A7D20CC3B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4229EDFC-8FB2-4980-8211-0A7D20CC3B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4229EDFC-8FB2-4980-8211-0A7D20CC3B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4229EDFC-8FB2-4980-8211-0A7D20CC3B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3CCBBA0-387C-4985-ACCF-6046EBB2AFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3CCBBA0-387C-4985-ACCF-6046EBB2AFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3CCBBA0-387C-4985-ACCF-6046EBB2AFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3CCBBA0-387C-4985-ACCF-6046EBB2AFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17988596-95DD-47DC-A840-3D9E50CEA354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17988596-95DD-47DC-A840-3D9E50CEA354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17988596-95DD-47DC-A840-3D9E50CEA354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17988596-95DD-47DC-A840-3D9E50CEA354}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
